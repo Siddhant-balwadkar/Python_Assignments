@@ -9,7 +9,7 @@
 #  Function Name :     ConvertBinary
 #  Description :       Converts a number to its binary equivalent
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              02/01/2026
+#  Date :              02/07/2026
 #
 ##############################################################
 def ConvertBinary(No):
@@ -29,7 +29,7 @@ def ConvertBinary(No):
 #  Function Name :     main
 #  Description :       It is the main function
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              02/01/2026
+#  Date :              02/07/2026
 #
 ##############################################################
 def main():
