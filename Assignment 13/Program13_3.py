@@ -9,7 +9,7 @@
 #  Function Name :     CheckPerfect
 #  Description :       Checks whether a number is a perfect number
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              02/01/2026
+#  Date :              02/07/2026
 #
 ##############################################################
 def CheckPerfect(No):
@@ -30,7 +30,7 @@ def CheckPerfect(No):
 #  Function Name :     main
 #  Description :       It is the main function
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              02/01/2026
+#  Date :              02/07/2026
 #
 ##############################################################
 def main():
