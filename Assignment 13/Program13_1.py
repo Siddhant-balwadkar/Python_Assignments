@@ -9,7 +9,7 @@
 #  Function Name :     RectangleArea
 #  Description :       Calculates the area of a rectangle
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              02/01/2026
+#  Date :              02/07/2026
 #
 ##############################################################
 def RectangleArea(Length, Width):
@@ -22,7 +22,7 @@ def RectangleArea(Length, Width):
 #  Function Name :     main
 #  Description :       It is the main function
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              02/01/2026
+#  Date :              02/07/2026
 #
 ##############################################################
 def main():
