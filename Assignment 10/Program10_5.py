@@ -9,7 +9,7 @@
 #  Function Name :     EvenNum
 #  Description :       Gives Even number till given number
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              01/01/2026
+#  Date :              01/07/2026
 #
 ##############################################################
 def EvenNum(No):
@@ -27,7 +27,7 @@ def EvenNum(No):
 #  Function Name :     main
 #  Description :       It is the main function
 #  Author :            Siddhant Vikas Balwadkar
-#  Date :              01/01/2026
+#  Date :              01/07/2026
 #
 ##############################################################
 def main():
