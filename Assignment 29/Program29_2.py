@@ -1,0 +1,49 @@
+############################################################################################
+#   Q2) Display File Contents
+#   Problem Statement :
+#   Write a program which accepts a file name from the user, opens that file and displays the
+#   entire contents on the console.
+#   Input :
+#   Demo.txt
+#   Expected Output :
+#   Display contents of Demo.txt on the console.
+#############################################################################################
+import os
+
+############################################################################################
+#
+#  Function Name :     Display
+#  Description :       Opens the specified file and displays its contents line by line.
+#  Author :            Siddhant Vikas Balwadkar
+#  Date :              07/08/2026
+#
+############################################################################################
+def Display(FileName):
+    if(os.path.exists(FileName)):
+        with open(FileName,"r") as file:
+            for line in file:
+                print(line, end="")
+    else:
+        print(f"File {FileName} does not exist.")
+
+############################################################################################
+#
+#  Function Name :     main
+#  Description :       Entry point of the program. Accepts a file name input from the user
+#                      and invokes the Display function.
+#  Author :            Siddhant Vikas Balwadkar
+#  Date :              07/08/2026
+#
+############################################################################################
+def main():
+    File = input("Enter File Name : ")
+    
+    Display(File)
+
+############################################################################################
+#
+#           Starter of the main function
+#
+############################################################################################
+if __name__ == "__main__":
+    main()
